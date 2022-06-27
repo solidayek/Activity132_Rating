@@ -1,0 +1,18 @@
+The program should ask the user for a rating and the name of the business. The rest of the program should only run if the user enters a rating between 0 - 5 inclusive. 
+
+    write a conditional so that the program runs if the user enters a rating between 0-5
+    create the object so that the test cases work
+
+
+The Rating class represents a rating system for a company. The company is rated on a scale of 0 - 5. 
+
+    You need to fill in the setRating() method. The rating should only be changed if the new rating is 5 or less. 
+
+ 
+The toString representation changes based on how well rated the company is. Suppose we have a company called “Tina’s Tires”.
+
+    If its rating is less than two, toString would return “Not Recommended Company: Tina’s Tires”
+    If its rating is over 3.5, toString would return “Gold Star Company: Tina’s Tires”
+    Otherwise, toString would return “Well Rated Company: Tina’s Tires”
+
+Remember, once a return statement is executed, the rest of the method is skipped. Therefore, if you return a String in an if statement, the remaining if statements will not be tested.
